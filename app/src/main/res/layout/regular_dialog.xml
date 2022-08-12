@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:paddingBottom="17dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Регулярность"
+        android:textSize="18sp"
+        android:background="@color/my"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:paddingVertical="30dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:paddingHorizontal="20dp"
+        >
+
+        <RadioButton
+            android:id="@+id/everyDayBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Каждый день"
+            android:theme="@style/RadioColor"
+            android:textColor="@color/my"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Каждую неделю"
+            android:theme="@style/RadioColor"
+            android:textColor="@color/my"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Каждый месяц"
+            android:theme="@style/RadioColor"
+            android:textColor="@color/my"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Каждый год"
+            android:theme="@style/RadioColor"
+            android:textColor="@color/my"/>
+
+    </RadioGroup>
+    
+    <TextView
+        android:id="@+id/otmenaBtn"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:text="Отменить"
+        android:textColor="@color/my"
+        android:textAlignment="textEnd"
+        android:paddingHorizontal="20dp"/>
+
+
+</LinearLayout>

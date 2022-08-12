@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:paddingBottom="24dp"
+    android:paddingTop="24dp"
+    android:background="@drawable/rentangle_coner_bg"
+    android:paddingHorizontal="51dp"
+    tools:context=".CreateTaskDialog"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/taskEditext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:background="@drawable/rentangle_bg"
+        android:hint="task "
+        android:singleLine="true"
+        android:minHeight="48dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="18dp">
+
+        <Button
+            android:id="@+id/dateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08.08.2022"
+            android:paddingEnd="4dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rentangle_bg"
+            android:drawableEnd="@drawable/ic_date"/>
+
+        <Button
+            android:id="@+id/regularBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="4dp"
+
+            android:text="Каждый день"
+            android:layout_weight="0.5"
+            android:background="@drawable/rentangle_bg"
+            android:drawableEnd="@drawable/ic_down"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/prinyatBtn"
+        android:layout_marginTop="26dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rentangle_soud_bg"
+        android:text="Принять"
+        android:textColor="@color/white"/>
+</LinearLayout>
